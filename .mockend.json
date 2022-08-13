@@ -18,29 +18,23 @@
                 "max": 180
             }
         },
-        "readings": {
-            "hasMany": "Reading"
-        }
-    },
-    "Reading": {
-        "timestamp": {
-            "dateTime": {
-                "min": "2022-01-01T00:00:00Z",
-                "max": "2022-08-10T23:59:59Z"
-            }
-        },
         "averageDaily": {
             "int": { 
                 "min": 0, 
                 "max": 49
             }
         },
-        "averageWeekly": {                 
+        "averageWeekly": {
             "int": {
                 "min": 0,
                 "max": 49
             }
         },
+        "readings": {
+            "hasMany": "Reading"
+        }
+    },
+    "Reading": {
         "force": {
             "int": { 
                 "min": 0,
@@ -51,6 +45,12 @@
             "int": {
                 "min": 0,
                 "max": 360
+            }
+        },
+        "timestamp": {
+            "dateTime": {
+                "min": "2022-01-01T00:00:00Z",
+                "max": "2022-08-10T23:59:59Z"
             }
         },
         "anemometer": {
