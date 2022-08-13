@@ -6,47 +6,49 @@
                 "maxLength": 42
             }
         },
-        "loc": {
-            "lat": { 
-                "int": { 
-                    "min": -180, 
-                    "max": 180
-                } 
-            },
-            "long": {
-                "int": { 
-                    "min": -180, 
-                    "max": 180
-                }
+        "lat": { 
+            "int": { 
+                "min": -180, 
+                "max": 180
             }
         },
-        "statistics": {
-            "average": {
-                "daily": {                 
-                    "int": { 
-                        "min": 0, 
-                        "max": 49
-                    }  
-                },
-                "weekly": {                 
-                    "int": { 
-                        "min": 0,
-                        "max": 49
-                    }  
-                }
+        "long": {
+            "int": { 
+                "min": -180, 
+                "max": 180
             }
         },
-        "readings": [
-            {
-                "timestamp": {
-                    "dateTime": {
-                        "min": "2022-01-01T00:00:00Z",
-                        "max": "2022-08-10T23:59:59Z"
-                    }
-                },
-                "force": 14.05,
-                "dir": 92
+        "average_daily": {
+            "int": { 
+                "min": 0, 
+                "max": 49
             }
-        ]
+        },
+        "average_weekly": {                 
+            "int": { 
+                "min": 0,
+                "max": 49
+            }
+        }
+    },
+    "Readings": {
+        "timestamp": {
+            "dateTime": {
+                "min": "2022-01-01T00:00:00Z",
+                "max": "2022-08-10T23:59:59Z"
+            }
+        },
+        "force": {
+            "int": { 
+                "min": 0,
+                "max": 49
+            }
+        },
+        "dir": {
+            "int": {
+                "min": 0,
+                "max": 360
+            }
+        }
     }
 }
