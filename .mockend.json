@@ -8,26 +8,26 @@
         },
         "lat": { 
             "int": { 
-                "min": -180, 
-                "max": 180
+                "min": -80, 
+                "max": 80
             }
         },
         "long": {
             "int": { 
-                "min": -180, 
-                "max": 180
+                "min": -80, 
+                "max": 80
             }
         },
         "averageDaily": {
             "int": { 
                 "min": 0, 
-                "max": 49
+                "max": 30
             }
         },
         "averageWeekly": {
             "int": {
                 "min": 0,
-                "max": 49
+                "max": 30
             }
         },
         "readings": {
@@ -38,7 +38,7 @@
         "force": {
             "int": { 
                 "min": 0,
-                "max": 49
+                "max": 30
             }
         },
         "dir": {
