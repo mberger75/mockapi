@@ -1,5 +1,5 @@
 {
-    "Anemometers": {
+    "Anemometer": {
         "name": {
             "loremParagraphs": {
                 "minLength": 10,
@@ -18,14 +18,14 @@
                 "max": 180
             }
         },
-        "average_daily": {
+        "averageDaily": {
             "int": { 
                 "min": 0, 
                 "max": 49
             }
         },
-        "average_weekly": {                 
-            "int": { 
+        "averageWeekly": {                 
+            "int": {
                 "min": 0,
                 "max": 49
             }
