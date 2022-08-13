@@ -52,6 +52,7 @@
                 "min": 0,
                 "max": 360
             }
-        }
+        },
+        "belongsTo": "Anemometer"
     }
 }
