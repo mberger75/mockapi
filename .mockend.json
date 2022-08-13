@@ -3,7 +3,7 @@
         "name": {
             "loremParagraphs": {
                 "minLength": 10,
-                "maxLength": 42
+                "maxLength": 25
             }
         },
         "lat": { 
