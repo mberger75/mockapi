@@ -53,6 +53,8 @@
                 "max": 360
             }
         },
-        "belongsTo": "Anemometer"
+        "anemometer": {
+            "belongsTo": "Anemometer"
+        }
     }
 }
